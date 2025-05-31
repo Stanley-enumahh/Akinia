@@ -1,6 +1,6 @@
 import { useQuery } from "@tanstack/react-query";
-import { ContactWithCompany } from "../types";
-import { fetchContacts } from "../contacts";
+import { ContactWithCompany } from "../contacts/types";
+import { fetchContacts } from "../contacts/contacts";
 
 export const useFetchContacts = () => {
   return useQuery<ContactWithCompany[], Error>({

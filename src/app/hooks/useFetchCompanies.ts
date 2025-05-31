@@ -1,5 +1,5 @@
 import { useQuery } from "@tanstack/react-query";
-import { fetchCompanies, fetchInvestorsByIds } from "../companies";
+import { fetchInvestorsByIds, fetchCompanies } from "../companies/companies";
 import { InvestorType } from "@/app/investors/types";
 
 export function useFetchCompanies(filters: {

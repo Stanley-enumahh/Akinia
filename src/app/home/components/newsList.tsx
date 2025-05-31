@@ -1,7 +1,7 @@
 "use client";
 
 import { Spin } from "antd";
-import { useFetchNews } from "../hooks/useFetchNews";
+import { useFetchNews } from "../../hooks/useFetchNews";
 import { NewsItem } from "./newsItem";
 
 export const NewsList = () => {

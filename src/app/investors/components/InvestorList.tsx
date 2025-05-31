@@ -1,6 +1,6 @@
 "use client";
 
-import { useFetchInvestors } from "../hooks/useFetchInvestors";
+import { useFetchInvestors } from "@/app/hooks/useFetchInvestors";
 import Filters from "./filters";
 import { useState } from "react";
 import { Spin } from "antd";

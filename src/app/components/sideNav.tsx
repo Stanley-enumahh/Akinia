@@ -21,7 +21,7 @@ export const exploreLinks = [
 export const SideNav = () => {
   const pathname = usePathname();
   return (
-    <aside className="w-[200px] fixed left-0 top-[60px] overflow-auto h-screen flex flex-col gap-7 px-4 py-6 bg-white shadow">
+    <aside className="w-[200px] fixed left-0 top-[47px] overflow-auto h-screen flex flex-col gap-7 px-4 py-6 bg-white shadow">
       {/* expolre */}
       <ul className="flex flex-col gap-2">
         <h4 className="text-gray-500 text-sm font-semibold mb-3">Explore</h4>

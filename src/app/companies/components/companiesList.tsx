@@ -3,7 +3,7 @@
 import CountryFlag from "@/app/components/flag";
 import { getCountry } from "@/app/utils/getCountry";
 import { CompanyType } from "../types";
-import { useFetchCompanies } from "../hooks/useFetchCompanies";
+import { useFetchCompanies } from "@/app/hooks/useFetchCompanies";
 import { useState } from "react";
 import Filters from "./filter";
 import { CustomTable } from "@/app/components/customTable";

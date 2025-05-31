@@ -1,7 +1,7 @@
 "use client";
 
 import { CustomTable } from "@/app/components/customTable";
-import { useFetchContacts } from "../hooks/useFetchContacts";
+import { useFetchContacts } from "@/app/hooks/useFetchContacts";
 import { Spin } from "antd";
 
 const contactHeaders = ["Name", "Role", "Email", "Companies"];

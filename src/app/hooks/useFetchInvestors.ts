@@ -1,5 +1,9 @@
 import { useQuery } from "@tanstack/react-query";
-import { fetchInvestors, fetchPortfolioCompanies } from "../investors";
+
+import {
+  fetchInvestors,
+  fetchPortfolioCompanies,
+} from "../investors/investors";
 
 interface InvestorFilters {
   location?: string;

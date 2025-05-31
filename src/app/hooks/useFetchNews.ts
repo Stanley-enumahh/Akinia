@@ -1,8 +1,8 @@
 "use client";
 
 import { useQuery } from "@tanstack/react-query";
-import { NewsType } from "../types";
-import { fetchNews } from "../news";
+import { NewsType } from "../home/types";
+import { fetchNews } from "../home/news";
 
 export const useFetchNews = () => {
   return useQuery<NewsType[], Error>({

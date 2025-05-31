@@ -19,7 +19,7 @@ export default function Home() {
 
         <div className="flex flex-col gap-2 w-full">
           <p className="text-xs w-full font-bold text-[#031D3D] border-b border-gray-300 pb-3">
-            Last week
+            This week
           </p>
           <NewsList />
         </div>

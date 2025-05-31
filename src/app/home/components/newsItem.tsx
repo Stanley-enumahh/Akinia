@@ -26,12 +26,17 @@ export const NewsItem = ({ news }: NewsItemProps) => {
             <p>{companyNames}</p>
           </span>
         )}
-        {
-          news.sector &&
-        <p className=" text-gray-600 gap-2 font-semibold py-1 text-xs px-2 rounded-2xl bg-gray-200 items-center">
-          {news.sector}
-        </p>
-        }
+        {news.sector && (
+          <p className=" text-gray-600 gap-2 font-semibold py-1 text-xs px-2 rounded-2xl bg-gray-200 items-center">
+            {news.sector}
+          </p>
+        )}
+
+        {news.date && (
+          <p className="text-blue-600 font-semibold py-1 text-xs px-2 rounded-2xl bg-blue-100 items-center">
+            {news.date}
+          </p>
+        )}
       </div>
     </div>
   );
